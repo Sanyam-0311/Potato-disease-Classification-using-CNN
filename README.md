@@ -4,7 +4,7 @@
 This project uses Convolutional Neural Networks (CNNs) implemented with TensorFlow and Keras to classify potato disease images. The dataset is organized into classes representing different diseases.
 
 ## Dataset
-The dataset is a set of potato disease images basically potato_early_blight, potato_late_blight, potato_healthy and is extracted using TensorFlow's `image_dataset_from_directory` function. It consists of images with a size of 256x256 pixels, grouped into batches of 32, and having 3 color channels.
+The dataset (https://www.kaggle.com/datasets/arjuntejaswi/plant-village ) is a set of potato disease images basically potato_early_blight, potato_late_blight, potato_healthy and is extracted using TensorFlow's `image_dataset_from_directory` function. It consists of images with a size of 256x256 pixels, grouped into batches of 32, and having 3 color channels.
 
 ## Data Preparation
 Images are preprocessed using resizing and rescaling operations. Additionally, data augmentation is performed to enhance the training set.
